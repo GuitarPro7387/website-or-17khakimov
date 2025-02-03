@@ -44,3 +44,24 @@
     height: 100%;
 
 }
+.container_but{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+
+}
+.container_but > button{
+    width: 100%;
+    border-radius: 80px;
+    background-color: blue;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid blue;
+}
+button:hover{
+    background-color: white;
+    
+}
